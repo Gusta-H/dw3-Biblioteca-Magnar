@@ -1,0 +1,39 @@
+/* Estilos gerais para o header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+  }
+  
+  .logo-container {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav li {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border-radius: 8px;
+  }
+  
+  .nav li:hover {
+    background-color: #0056b3;
+  }
+  
+  .link-cadastrar-doacao {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .link-cadastrar-doacao:hover {
+    color: #f1f1f1;
+  }
+  

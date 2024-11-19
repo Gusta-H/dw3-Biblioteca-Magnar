@@ -1,0 +1,30 @@
+.home-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  main {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .home-actions {
+    margin-top: 20px;
+  }
+  
+  .action-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .action-link:hover {
+    color: #0056b3;
+  }
+  
