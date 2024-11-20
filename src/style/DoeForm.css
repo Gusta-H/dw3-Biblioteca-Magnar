@@ -1,25 +1,26 @@
-/* Centraliza o formulário verticalmente e horizontalmente */
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh; /* Altura total da tela */
+  align-items: flex-start;
+  min-height: 100vh;
   margin: 0;
-  background-color: #fafafafa; /* Fundo da página */
-  font-family: Arial, sans-serif; /* Fonte padrão */
+  background-color: #fafafa;
+  font-family: Arial, sans-serif;
+  overflow-y: auto;
+  padding-top: 80px; /* Espaço suficiente para o header fixo */
 }
 
 /* Estilo do formulário */
 .form-container {
-  max-width: 400px;
-  height: auto;
-  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%; /* Faz o formulário se ajustar à largura da tela */
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
   background-color: #f9f9f9;
   text-align: center;
   color: #2e2e2e;
+  margin-top: 20px; /* Adiciona espaçamento no topo */
 }
 
 /* Estilo do título */
