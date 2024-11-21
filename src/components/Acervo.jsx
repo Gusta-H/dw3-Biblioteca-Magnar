@@ -36,6 +36,7 @@ function Acervo() {
           <td>
           <img src={codigoLimpo} alt="Código Limpo" className="book-cover" />
           </td>
+          
             <span className="table-column">Código Limpo: Habilidades Práticas do Agile Software</span>
             <span className="table-column">Robert C. Martin</span>
             <span className="table-column">Programação, Tecnologia, Back-end</span>
