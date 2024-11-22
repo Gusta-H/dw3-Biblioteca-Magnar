@@ -1,0 +1,108 @@
+/* Estilo geral da página */
+.acervo-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Espaçamento entre o header e o conteúdo */
+  .acervo-content {
+    width: 90%;
+    margin-top: 80px; /* Ajuste o valor para o tamanho do seu header */
+  }
+  
+  /* Estilo do título */
+  .acervo-content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Barra de busca e botão de adicionar */
+  .acervo-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-book-button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-book-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Estilo da tabela */
+  .acervo-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-header {
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 10px 0;
+    font-weight: bold;
+  }
+  
+  .table-row {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-column {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .book-acervo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .table-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-button, .delete-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .edit-button {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .edit-button:hover {
+    background-color: #0b7dda;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: #da190b;
+  }
+  
