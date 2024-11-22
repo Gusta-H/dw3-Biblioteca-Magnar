@@ -11,24 +11,27 @@ function DoeLivrosForm() {
 
   return (
     <div className="form-container">
-      <h1>Doe Livros</h1>
+      <h1>Adicionar Livros</h1>
       <form>
-        <label>Email:</label>
-        <input type="email" placeholder="Email" />
+        <label>Titulo:</label>
+        <input type="text" placeholder="Titulo" />
 
-        <label>Nome do livro:</label>
-        <input type="text" placeholder="Nome do Livro" />
+        <label>Autor</label>
+        <input type="text" placeholder="Autor" />
 
-        <label>Telefone:</label>
-        <input type="tel" placeholder="Telefone" />
+        <label>Ano do Livro</label>
+        <input type="text" placeholder="Ano do Livro" />
 
-        <label>Ano do Livro:</label>
-        <input type="number" placeholder="Ano do Livro" />
+        <label>Gênero(s)</label>
+        <input type="text" placeholder="Genero(s)" />
 
-        <label>Descreva os itens a serem doados:</label>
+        <label>Quantidade</label>
+        <input type="number" placeholder="Quantidade" />
+
+        <label>Descrição</label>
         <textarea placeholder="Descrição"></textarea>
 
-        <label>Foto dos itens:</label>
+        <label>Capa do livro:</label>
         <input type="file" />
 
         <div className="button-container">
