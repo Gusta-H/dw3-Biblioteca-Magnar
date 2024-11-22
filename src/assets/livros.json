@@ -1,0 +1,23 @@
+[{
+    "_id": {
+      "$oid": "5f8d0c7f2b3b5f0f1c8e4d80"
+    },
+    "titulo": "O Senhor dos Anéis",   
+    "autor": "J.R.R. Tolkien",  
+    "ano_publicacao": 1954, 
+    "url_capa": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1607204062i/50336738.jpg",
+    "generos": ["Fantasia","Clássicos"],
+    "descricao":"Apesar de ter sido publicado em três volumes – A sociedade do anel, As duas torres e O retorno do Rei – desde os anos 1950, O senhor dos anéis não é exatamente uma trilogia, mas um único grande romance que só pode ser compreendido em seu conjunto, segundo a concepção de seu autor, J.R.R. Tolkien.",
+    "quantidade": 10
+  },
+  {
+    "_id": {
+      "$oid": "5f8d0c7f2b3b5f0f1c8e4d81"
+    },
+    "titulo": "1984",
+    "autor": "George Orwell",
+    "ano_publicacao": 1949,
+    "url_capa": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1657781256i/61439040.jpg",
+    "generos": ["Distopia", "Clássicos", "Ficção"],
+    "quantidade": 5
+  }]
