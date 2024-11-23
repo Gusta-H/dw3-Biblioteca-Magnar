@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import livrosData from '../assets/livros.json';
+import livrosData from '../../assets/data/livros.json';
 // import axios from 'axios';
-import './style/Livros.css';
-import Header from '../components/Header';
+import './Livros.css';
+import Header from '../../components/Header/Header';
 
 function Livros() {
   const [livros, setLivros] = useState([]);
