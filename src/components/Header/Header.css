@@ -88,7 +88,7 @@ header {
 
 @font-face{
   font-family: 'Tech';
-  src: url('Share-TechMono.otf') format(opentype);
+  src: url('../../assets/fonts/Share-TechMono.otf') format(opentype);
   font-weight: normal;
   font-style: normal;
 }
