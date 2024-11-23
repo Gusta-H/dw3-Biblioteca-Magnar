@@ -1,0 +1,61 @@
+/* Estilos para a página de edição de livro */
+.form-cadastro {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-container {
+    margin-bottom: 1rem;
+  }
+  
+  .input-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-container input,
+  .input-container select,
+  .input-container textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .input-container textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .btn-submit {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+    background-color: #0056b3;
+  }
+  
+  .erro {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  

@@ -1,0 +1,32 @@
+[{
+    "_id": {
+      "$oid": "5f8d0c7f2b3b5f0f1c8e4d60"
+    },
+    "nome": "João Silva",
+    "email": "joao.silva@email.com",
+    "telefone": "(11) 98765-4321",
+    "endereco": {
+      "rua": "Rua das Flores",
+      "numero": 123,
+      "bairro": "Centro",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "01000-000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5f8d0c7f2b3b5f0f1c8e4d61"
+    },
+    "nome": "Maria Oliveira",
+    "email": "maria.oliveira@email.com",
+    "telefone": "(21) 12345-6789",
+    "endereco": {
+      "rua": "Rua do Sol",
+      "numero": 456,
+      "bairro": "Ipanema",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "cep": "22000-000"
+    }
+  }]

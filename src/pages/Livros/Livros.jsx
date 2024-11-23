@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import livrosData from '../assets/livros.json';
+import livrosData from '../../assets/data/livros.json';
 // import axios from 'axios';
-import './style/Livros.css';
-import Header from '../components/Header';
+import './Livros.css';
+import Header from '../../components/Header/Header';
 
 function Livros() {
   const [livros, setLivros] = useState([]);
@@ -77,7 +77,7 @@ function Livros() {
                 <th>Autor</th>
                 <th>Ano</th>
                 <th>Categorias</th>
-                <th>Quantidade</th> {/* Coluna adicionada */}
+                <th>Quantidade</th>
                 <th>Ações</th>
             </tr>
             </thead>
@@ -93,6 +93,8 @@ function Livros() {
                 <td>{livro.generos.join(', ')}</td>
                 <td>{livro.quantidade}</td>
                 <td className="acoes">
+                    {/* Adicionar link para visualização do livro */}
+                    <button onClick={() => navigate(`/livros/${livro.id}`)}>Ver Detalhes</button>
                     <button onClick={() => navigate(`/livros/editar/${livro.id}`)}>Editar</button>
                     <button onClick={() => handleExcluir(livro.id)}>Excluir</button>
                 </td>
@@ -100,7 +102,7 @@ function Livros() {
             ))}
             </tbody>
         </table>
-        </div>
+    </div>
   );
 }
 

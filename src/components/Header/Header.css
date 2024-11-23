@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #0F67B1;
+  box-shadow: 0px 3px 10px #464646;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 6rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  color: #BDDAF2;
+  font-family: 'Tech', Times, serif;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-item a {
+  text-decoration: none; /* Remove o sublinhado */
+  font-size: 1.15rem;
+  color: #BDDAF2; /* Define a cor dos links */
+  font-weight: 400;
+  transition: color 0.3s ease; /* Transição suave ao alterar a cor */
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.15rem;
+  color: #BDDAF2; 
+  font-weight: 400px;
+}
+
+.sair-button button {
+  border: none;
+  background-color: #0F67B1;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.sair-button button a {
+  text-decoration: none;
+  color: #BDDAF2;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.foto {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.foto img {
+  text-decoration: none;
+  color: #BDDAF2;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+@font-face{
+  font-family: 'Tech';
+  src: url('../../assets/fonts/Share-TechMono.otf') format(opentype);
+  font-weight: normal;
+  font-style: normal;
+}
