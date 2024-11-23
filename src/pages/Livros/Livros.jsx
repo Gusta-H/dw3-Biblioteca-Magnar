@@ -93,6 +93,8 @@ function Livros() {
                 <td>{livro.generos.join(', ')}</td>
                 <td>{livro.quantidade}</td>
                 <td className="acoes">
+                    {/* Adicionar link para visualização do livro */}
+                    <button onClick={() => navigate(`/livros/${livro.id}`)}>Ver Detalhes</button>
                     <button onClick={() => navigate(`/livros/editar/${livro.id}`)}>Editar</button>
                     <button onClick={() => handleExcluir(livro.id)}>Excluir</button>
                 </td>
@@ -100,7 +102,7 @@ function Livros() {
             ))}
             </tbody>
         </table>
-        </div>
+    </div>
   );
 }
 

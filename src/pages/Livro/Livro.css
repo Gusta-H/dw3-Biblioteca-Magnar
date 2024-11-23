@@ -1,0 +1,43 @@
+.livro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .livro-info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  .livro-capa {
+    max-width: 200px;
+    max-height: 300px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .livro-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .livro-details p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
