@@ -66,7 +66,7 @@ function Usuarios() {
           value={busca}
           onChange={handleBuscar}
         />
-        <button onClick={() => navigate('/usuarios/adicionar')}>Adicionar Usuário</button>
+        <button onClick={() => navigate('/usuarios/criar')}>Adicionar Usuário</button>
       </div>
 
       <table>

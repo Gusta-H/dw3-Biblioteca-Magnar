@@ -10,6 +10,7 @@ import CadastrarEmprestimo from './pages/CadastrarEmprestimo/CadastrarEmprestimo
 import Usuarios from './pages/Usuarios/Usuarios';
 import Usuario from './pages/Usuario/Usuario';
 import CadastrarUsuario from './pages/CadastrarUsuario/CadastrarUsuario';
+import EditarUsuario from './pages/EditarUsuario/EditarUsuario';
 
 
 
@@ -28,6 +29,7 @@ function App() {
         <Route path="/usuarios" element={<Usuarios />} />
         <Route path="/usuarios/id" element={<Usuario />} />
         <Route path="/usuarios/criar" element={<CadastrarUsuario />} />
+        <Route path="/usuarios/editar/:id" element={<EditarUsuario />} />
       </Routes>
     </Router>
   );
