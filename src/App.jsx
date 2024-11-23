@@ -1,16 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home/Home';
-
 import Livros from './pages/Livros/Livros';
-import Livro from './pages/Livro';
-import CadastrarLivro from './pages/CadastrarLivro';
-import EditarLivro from './pages/EditarLivro';
-import Emprestimos from './pages/Emprestimos';
-import CadastrarEmprestimo from './pages/CadastrarEmprestimo';
-import Usuarios from './pages/Usuarios';
-import Usuario from './pages/Usuario';
-import CadastrarUsuario from './pages/CadastrarUsuario';
+import Livro from './pages/Livro/Livro';
+import CadastrarLivro from './pages/CadastrarLivro/CadastrarLivro';
+import EditarLivro from './pages/EditarLivro/EditarLivro';
+import Emprestimos from './pages/Emprestimos/Emprestimos';
+import CadastrarEmprestimo from './pages/CadastrarEmprestimo/CadastrarEmprestimo';
+import Usuarios from './pages/Usuarios/Usuarios';
+import Usuario from './pages/Usuario/Usuario';
+import CadastrarUsuario from './pages/CadastrarUsuario/CadastrarUsuario';
 
 
 

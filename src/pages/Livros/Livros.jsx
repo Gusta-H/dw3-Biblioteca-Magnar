@@ -77,7 +77,7 @@ function Livros() {
                 <th>Autor</th>
                 <th>Ano</th>
                 <th>Categorias</th>
-                <th>Quantidade</th> {/* Coluna adicionada */}
+                <th>Quantidade</th>
                 <th>Ações</th>
             </tr>
             </thead>
