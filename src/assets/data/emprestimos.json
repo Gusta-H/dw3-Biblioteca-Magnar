@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "5f8d0c7f2b3b5f0f1c8e4d90"
+  },
+  "usuario_id": {
+    "$oid": "5f8d0c7f2b3b5f0f1c8e4d60"
+  },
+  "livro_id": {
+    "$oid": "5f8d0c7f2b3b5f0f1c8e4d80"
+  },
+  "data_emprestimo": {
+    "$date": "2024-11-01T00:00:00.000Z"
+  },
+  "data_devolucao": {
+    "$date": "2024-11-15T00:00:00.000Z"
+  },
+  "status": "devolvido"
+},
+{
+  "_id": {
+    "$oid": "5f8d0c7f2b3b5f0f1c8e4d91"
+  },
+  "usuario_id": {
+    "$oid": "5f8d0c7f2b3b5f0f1c8e4d61"
+  },
+  "livro_id": {
+    "$oid": "5f8d0c7f2b3b5f0f1c8e4d81"
+  },
+  "data_emprestimo": {
+    "$date": "2024-11-05T00:00:00.000Z"
+  },
+  "data_devolucao": {
+    "$date": "2024-11-20T00:00:00.000Z"
+  },
+  "status": "em andamento"
+}]
