@@ -10,6 +10,7 @@ import CadastrarEmprestimo from './pages/CadastrarEmprestimo/CadastrarEmprestimo
 import Usuarios from './pages/Usuarios/Usuarios';
 import CadastrarUsuario from './pages/CadastrarUsuario/CadastrarUsuario';
 import EditarUsuario from './pages/EditarUsuario/EditarUsuario';
+import EditarEmprestimo from './pages/EditarEmprestimo/EditarEmprestimo';
 
 
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/livros/editar/:id" element={<EditarLivro />} />
         <Route path="/emprestimos" element={<Emprestimos />} />
         <Route path="/emprestimos/criar" element={<CadastrarEmprestimo />} />
+        <Route path="/emprestimos/editar/:id" element={<EditarEmprestimo />} />
         <Route path="/usuarios" element={<Usuarios />} />
         <Route path="/usuarios/criar" element={<CadastrarUsuario />} />
         <Route path="/usuarios/editar/:id" element={<EditarUsuario />} />
