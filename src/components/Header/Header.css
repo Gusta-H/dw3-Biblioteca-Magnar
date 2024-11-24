@@ -9,7 +9,7 @@
   gap: 0px;
   background-color: #0F67B1;
   text-align: center;
-  position: relative;
+  position: sticky;
   z-index: 1; /* Garante que o header fique acima */
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
 }
