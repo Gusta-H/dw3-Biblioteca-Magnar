@@ -93,7 +93,7 @@ function Emprestimos() {
   return (
     <div>
       <Header />
-
+      <div className="dash">
       <div className="busca-adicionar">
         <input
           type="text"
@@ -139,6 +139,7 @@ function Emprestimos() {
           ))}
         </tbody>
       </table>
+      </div>
     </div>
   );
 }

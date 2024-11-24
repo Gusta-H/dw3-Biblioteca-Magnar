@@ -44,6 +44,7 @@ function Livro() {
   return (
     <div>
       <Header />
+      <div className="dashboard">
       <div className="livro-container">
         <h1>{livro.titulo}</h1>
         <div className="livro-info">
@@ -56,6 +57,7 @@ function Livro() {
             <p><strong>Quantidade disponível:</strong> {livro.quantidade}</p>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );
