@@ -101,7 +101,7 @@ function Emprestimos() {
           value={busca}
           onChange={handleBuscar}
         />
-        <button onClick={() => navigate('/emprestimos/adicionar')}>
+        <button onClick={() => navigate('/emprestimos/criar')}>
           Adicionar Empréstimo
         </button>
       </div>
