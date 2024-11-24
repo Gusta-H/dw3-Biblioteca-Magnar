@@ -4,7 +4,7 @@ import './Header.css';
 
 function Header() {
   return (
-    <header>
+    <header className="header">
       <nav className="nav-bar">
       <div className="logo"><h1>BIBLIOTECH</h1>
       </div>
