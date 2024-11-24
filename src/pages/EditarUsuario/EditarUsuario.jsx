@@ -93,8 +93,9 @@ function EditarUsuario() {
   };
 
   return (
-    <div className="editar-usuario">
+    <div>
       <Header />
+      <div className="editar-usuario">
       <h1>Editar Usuário</h1>
       <form onSubmit={handleSubmit}>
         <div className="campo">
@@ -195,6 +196,7 @@ function EditarUsuario() {
         </div>
         <button type="submit">Atualizar Usuário</button>
       </form>
+      </div>
     </div>
   );
 }

@@ -10,6 +10,12 @@ margin: 0;
 font-size: 1.5rem;
 }
 
+.dash {
+    justify-content: space-between;
+    padding: 20px;
+    min-height: calc(100vh - 80px); /* Considerando a altura do Header */
+  }
+
 /* Barra de busca e botão de adicionar */
 .busca-adicionar {
 display: flex;

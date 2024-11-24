@@ -58,6 +58,7 @@ function Usuarios() {
   return (
     <div>
       <Header />
+      <div className="dash">
 
       <div className="busca-adicionar">
         <input
@@ -97,6 +98,7 @@ function Usuarios() {
           ))}
         </tbody>
       </table>
+      </div>
     </div>
   );
 }
