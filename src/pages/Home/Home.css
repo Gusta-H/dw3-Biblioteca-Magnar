@@ -13,10 +13,7 @@ body {
 
 .dashboard {
   display: flex;
-  justify-content: space-between; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
-  flex-wrap: wrap; /* Permite que os itens quebrem linha se necessário */
-  gap: 20px; /* Espaçamento entre os itens */
+  justify-content: space-between;
   padding: 20px;
   min-height: calc(100vh - 80px); /* Considerando a altura do Header */
 }
