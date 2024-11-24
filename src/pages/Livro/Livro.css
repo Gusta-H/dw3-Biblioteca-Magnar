@@ -12,6 +12,13 @@
     align-items: flex-start;
     margin-top: 20px;
   }
+
+  .dashboard {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    min-height: calc(100vh - 80px); /* Considerando a altura do Header */
+  }
   
   .livro-capa {
     max-width: 200px;
