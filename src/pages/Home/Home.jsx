@@ -53,8 +53,22 @@ function Home() {
         </div>
         <div className="actions-group">
           <h3>Usuários</h3>
-          <div className="action-button">Adicionar usuário</div>
-          <div className="action-button">Todos usuários</div>
+          {/* Botão para "Acervo Completo" */}
+          <div 
+            className="action-button" 
+            onClick={() => navigate('/usuarios/criar')} // Navega para a rota de acervo
+            style={{ cursor: 'pointer' }} // Adiciona o cursor de ponteiro
+          >
+            Adicionar usuário
+          </div>
+          {/* Botão para "Todos Usuários" */}
+          <div 
+            className="action-button" 
+            onClick={() => navigate('/usuarios')} // Navega para a rota de acervo
+            style={{ cursor: 'pointer' }} // Adiciona o cursor de ponteiro
+          >
+            Todos usuários
+          </div>
         </div>
       </div>
     </div>
